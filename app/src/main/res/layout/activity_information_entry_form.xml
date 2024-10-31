@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/full_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:minHeight="48dp"/>
+
+    <RadioGroup
+        android:id="@+id/gender_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/male_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/phone_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/date_of_birth_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth" />
+
+    <Spinner
+        android:id="@+id/current_residence_ward_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/current_residence_ward"
+        android:minHeight="48dp"/>
+
+    <Spinner
+        android:id="@+id/current_residence_district_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/current_residence_district"
+        android:minHeight="48dp"/>
+
+    <Spinner
+        android:id="@+id/current_residence_province_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/current_residence_province"
+        android:minHeight="48dp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies_sports_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports" />
+
+    <CheckBox
+        android:id="@+id/hobbies_movies_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movies" />
+
+    <CheckBox
+        android:id="@+id/hobbies_music_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music" />
+
+    <CheckBox
+        android:id="@+id/agree_terms_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I agree to the terms" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
